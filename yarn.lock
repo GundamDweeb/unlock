@@ -9236,7 +9236,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@logtail/node@npm:0.4.0, @logtail/node@npm:^0.4.0":
+"@logtail/core@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "@logtail/core@npm:0.4.5"
+  dependencies:
+    "@logtail/tools": ^0.4.5
+    "@logtail/types": ^0.4.5
+  checksum: de92d794a39fff8d43da5637cf77baf814d1ce4800152e80aeef885e0ececaea01c258b85bc6a98e05ccfffd12ce2ab4438b88b14d69f047754319e09b2a40a4
+  languageName: node
+  linkType: hard
+
+"@logtail/node@npm:0.4.5":
+  version: 0.4.5
+  resolution: "@logtail/node@npm:0.4.5"
+  dependencies:
+    "@logtail/core": ^0.4.5
+    "@logtail/types": ^0.4.5
+    "@msgpack/msgpack": ^2.5.1
+    "@types/stack-trace": ^0.0.29
+    cross-fetch: ^3.0.4
+    minimatch: ^3.0.4
+    stack-trace: ^0.0.10
+  checksum: 722b3ccd7a09704250426d6ed1a6cfa28c08a43a8f000310d80660ed45131df8e649dd1748429d23ac5400a0b3136836582ef09956d3c2c642e0230d64b451a3
+  languageName: node
+  linkType: hard
+
+"@logtail/node@npm:^0.4.0":
   version: 0.4.0
   resolution: "@logtail/node@npm:0.4.0"
   dependencies:
@@ -9260,12 +9285,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@logtail/tools@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "@logtail/tools@npm:0.4.5"
+  dependencies:
+    "@logtail/types": ^0.4.5
+  checksum: 750305d6eb1b76121a5e432ca809c9a20a47073920fd12b53335c94434cf4307c0c18722ab10c50870f8317d0dfec4a7b9e286a95c7a8b165d7187a18f817de8
+  languageName: node
+  linkType: hard
+
 "@logtail/types@npm:^0.4.0":
   version: 0.4.0
   resolution: "@logtail/types@npm:0.4.0"
   dependencies:
     js: ^0.1.0
   checksum: b21d5a48bd60db0fc8e57f992c6bfcc7191fdb817984a736c13e0fd2afd1b077e631ff455443e1b289782f642c5a27883434347d8b8340bb78e4ff43d84383e0
+  languageName: node
+  linkType: hard
+
+"@logtail/types@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "@logtail/types@npm:0.4.5"
+  dependencies:
+    js: ^0.1.0
+  checksum: d62ec65f38b9e74b92208eb2f2b5341b5171c7b488649d92824137e59bbebd119080ae30d8f67aca7ce47965f97b0bafdeff7322255d80c67bab40d439d899d7
   languageName: node
   linkType: hard
 
@@ -18394,7 +18437,7 @@ __metadata:
   resolution: "@unlock-protocol/locksmith@workspace:locksmith"
   dependencies:
     "@aws-sdk/client-s3": 3.344.0
-    "@logtail/node": 0.4.0
+    "@logtail/node": 0.4.5
     "@logtail/winston": 0.4.1
     "@nuintun/qrcode": 3.3.5
     "@openzeppelin/defender-relay-client": 1.47.1
