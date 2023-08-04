@@ -18256,11 +18256,11 @@ __metadata:
   dependencies:
     "@unlock-protocol/eslint-config": "workspace:./packages/eslint-config"
     "@unlock-protocol/tsconfig": "workspace:./packages/tsconfig"
-    "@vitest/coverage-c8": 0.31.4
+    "@vitest/coverage-c8": 0.33.0
     eslint: 8.44.0
     tsup: 7.1.0
     typescript: 5.1.6
-    vitest: 0.31.4
+    vitest: 0.34.1
   peerDependencies:
     zod: 3.21.4
   languageName: unknown
@@ -18321,10 +18321,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@unlock-protocol/email-templates@workspace:packages/email-templates"
   dependencies:
-    "@vitest/coverage-c8": 0.31.4
+    "@vitest/coverage-c8": 0.33.0
     handlebars: 4.7.7
     typescript: 5.1.6
-    vitest: 0.31.4
+    vitest: 0.34.1
   languageName: unknown
   linkType: soft
 
@@ -18871,7 +18871,7 @@ __metadata:
     tailwindcss: 3.3.3
     typescript: 5.1.6
     use-local-storage: 3.0.0
-    vitest: 0.31.4
+    vitest: 0.34.1
     yaml-front-matter: 4.1.1
   languageName: unknown
   linkType: soft
@@ -44278,7 +44278,7 @@ __metadata:
     ethers: 5.7.2
     toucan-js: 3.2.0
     typescript: 5.1.6
-    vitest: 0.31.4
+    vitest: 0.34.1
     wrangler: 3.4.0
   languageName: unknown
   linkType: soft
