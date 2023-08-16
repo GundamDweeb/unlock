@@ -34,6 +34,7 @@ import lockSettingsRouter from './v2/lock-settings'
 import certificateRouter from './v2/certificate'
 import ogRouter from './v2/og'
 import hooksRooter from './v2/hooks'
+import emailSubscriptionRouter from './v2/emailSubscriptions'
 import { createCacheMiddleware } from '../utils/middlewares/cacheMiddleware'
 
 const router = express.Router({ mergeParams: true })
@@ -100,6 +101,7 @@ router.use('/v2/lock-settings', lockSettingsRouter)
 router.use('/v2/certificate', certificateRouter)
 router.use('/v2/og', ogRouter)
 router.use('/v2/hooks', hooksRooter)
+router.use('/v2/email-subscriptions', emailSubscriptionRouter)
 
 router.use('/', (_, res) => {
   res.send('<a href="https://unlock-protocol.com/">Unlock Protocol</a>')
